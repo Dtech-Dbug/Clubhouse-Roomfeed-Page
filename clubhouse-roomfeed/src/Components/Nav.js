@@ -1,4 +1,5 @@
 import React from "react";
+import { Avatar } from "antd";
 
 const Nav = () => {
 	return (
@@ -11,6 +12,7 @@ const Nav = () => {
 				<i class="fa fa-bell"></i>
 				<i class="fa fa-calendar"></i>
 				<i class="fa fa-envelope-open"></i>
+				<Avatar style={{ height: "1.5rem", width: "1.5rem" }}>DC</Avatar>
 			</div>
 		</nav>
 	);
