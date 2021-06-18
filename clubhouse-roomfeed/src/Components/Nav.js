@@ -1,5 +1,6 @@
 import React from "react";
 import { Avatar } from "antd";
+import User from "../Image/user.jpg";
 
 const Nav = () => {
 	return (
@@ -12,7 +13,9 @@ const Nav = () => {
 				<i class="fa fa-bell"></i>
 				<i class="fa fa-calendar"></i>
 				<i class="fa fa-envelope-open"></i>
-				<Avatar style={{ height: "1.5rem", width: "1.5rem" }}>DC</Avatar>
+				<Avatar src={User} style={{ height: "1.8rem", width: "1.8rem" }}>
+					DC
+				</Avatar>
 			</div>
 		</nav>
 	);
