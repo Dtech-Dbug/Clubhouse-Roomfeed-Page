@@ -4,29 +4,45 @@ import { MessageOutlined } from "@ant-design/icons";
 import Comments from "../Image/comments.svg";
 import CommentsRegular from "../Image/commentsRegular.svg";
 
-const RoomCards = () => {
+const RoomCards = ({
+	heading,
+	subHeading,
+	userAvatar1,
+	userAvatar2,
+	user1,
+	user2,
+	user3,
+}) => {
 	return (
 		<div className="room-cards">
 			<div className="room-card-header">
 				<h3>
-					Test{" "}
+					{heading}
 					<i
 						style={{ color: "rgba(39, 174, 97, 255)" }}
 						className="fa fa-home"
 					></i>
 				</h3>{" "}
-				<h4>Test Test Test</h4>
+				<h4>{subHeading}</h4>
 			</div>
 
 			<div className="room-card-content">
 				<div className="user-images">
-					<img className="user-images user-image-1" src={User} alt="Oops!" />
-					<img className="user-images user-image-2" src={User} alt="Oops!" />
+					<img
+						className="user-images user-image-1"
+						src={userAvatar1}
+						alt="Oops!"
+					/>
+					<img
+						className="user-images user-image-2"
+						src={userAvatar2}
+						alt="Oops!"
+					/>
 				</div>
 
 				<div className="room-users">
 					<div className="users">
-						<h4>Dwaipayan</h4>
+						<h4>{user1}</h4>
 						<img
 							className="comment"
 							src={CommentsRegular}
@@ -36,7 +52,7 @@ const RoomCards = () => {
 					</div>
 
 					<div className="users">
-						<h4>Dtech-Dbug</h4>
+						<h4>{user2}</h4>
 						<img
 							className="comment"
 							src={CommentsRegular}
@@ -45,7 +61,7 @@ const RoomCards = () => {
 						/>
 					</div>
 					<div className="users">
-						<h4>Dee</h4>
+						<h4>{user3}</h4>
 						<img
 							className="comment"
 							src={CommentsRegular}
