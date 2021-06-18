@@ -1,3 +1,6 @@
+:root {
+	--button-color: "rgba(39,174,97,255)";
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -16,7 +19,7 @@ code {
 }
 
 nav {
-	background-color: crimson;
+	background-color: rgba(39, 174, 97, 255);
 	display: flex;
 	justify-content: space-around;
 	font-size: 1.5rem;
@@ -34,4 +37,36 @@ nav .flex-child-2 {
 }
 nav .flex-child-2 > i {
 	margin-right: 1rem;
+}
+.ant-avatar {
+	display: none;
+}
+.App {
+	position: relative;
+	height: 100vh;
+}
+
+.footer-wrapper {
+	background: crimson;
+	opacity: 90%;
+	padding: 0.2rem 0.8rem;
+	margin: 0 0.4rem;
+	position: fixed;
+	bottom: 0;
+	width: 60%;
+	left: 20%;
+	padding: 0.8rem;
+}
+footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	opacity: 1;
+}
+footer button {
+	background: rgba(39, 174, 97, 255);
+	border-radius: 1rem;
+	height: 2rem;
+	color: white;
+	display: flex;
 }
