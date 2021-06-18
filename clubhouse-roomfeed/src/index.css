@@ -99,8 +99,8 @@ footer button {
 	position: relative;
 }
 .user-images img {
-	height: 4rem;
-	width: 4rem;
+	height: 3rem;
+	width: 3rem;
 	border-radius: 40%;
 }
 .user-images .user-image-1 {
@@ -109,7 +109,7 @@ footer button {
 }
 .user-images .user-image-2 {
 	position: absolute;
-	bottom: 0%;
+	top: 30%;
 	left: 35%;
 }
 .room-users {
@@ -126,7 +126,7 @@ footer button {
 	height: 25%;
 }
 .room-users .users h4 {
-	font-size: 1.1rem;
+	font-size: 1rem;
 }
 .comment {
 	height: 1rem;
