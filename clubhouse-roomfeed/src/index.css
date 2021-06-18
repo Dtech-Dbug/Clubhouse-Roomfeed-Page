@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Ubuntu&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
 :root {
 	--button-color: "rgba(39,174,97,255)";
+	--text-sub-heading: "font-family: 'Roboto Slab', serif";
+	--text-heading: "font-family: 'Ubuntu', sans-serif";
 }
 body {
 	margin: 0;
