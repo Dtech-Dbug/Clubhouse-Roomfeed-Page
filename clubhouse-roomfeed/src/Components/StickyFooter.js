@@ -5,7 +5,7 @@ const StickyFooter = () => {
 		<div className="footer-wrapper">
 			<footer>
 				<button>+ Start Room</button>
-				<i class="fa fa-th"></i>
+				<i class="fa fa-th" style={{ fontSize: "1.5rem" }}></i>
 			</footer>
 		</div>
 	);
