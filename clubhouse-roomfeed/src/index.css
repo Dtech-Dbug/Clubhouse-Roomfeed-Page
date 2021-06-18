@@ -95,6 +95,12 @@ footer button {
 	justify-content: flex-start;
 	line-height: 0.8rem;
 }
+.room-card-header h3 {
+	font-family: "Ubuntu", sans-serif;
+}
+.room-card-header h4 {
+	font-family: "Roboto Slab", serif;
+}
 .room-card-content {
 	display: flex;
 	flex-direction: row;
