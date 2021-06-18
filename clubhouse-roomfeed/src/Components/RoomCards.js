@@ -26,7 +26,7 @@ const RoomCards = () => {
 
 				<div className="room-users">
 					<div className="users">
-						<h4>User 1</h4>
+						<h4>Dwaipayan</h4>
 						<img
 							className="comment"
 							src={CommentsRegular}
@@ -36,7 +36,7 @@ const RoomCards = () => {
 					</div>
 
 					<div className="users">
-						<h4>User 2</h4>
+						<h4>Dtech-Dbug</h4>
 						<img
 							className="comment"
 							src={CommentsRegular}
@@ -45,7 +45,7 @@ const RoomCards = () => {
 						/>
 					</div>
 					<div className="users">
-						<h4>User 2</h4>
+						<h4>Dee</h4>
 						<img
 							className="comment"
 							src={CommentsRegular}
