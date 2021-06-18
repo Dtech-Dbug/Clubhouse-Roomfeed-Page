@@ -73,7 +73,7 @@ footer button {
 
 /* room card*/
 .room-cards {
-	background: darkcyan;
+	background: white;
 	height: 10rem;
 	padding: 0.2rem 0.8rem;
 	margin: 0 0.4rem;
@@ -133,4 +133,7 @@ footer button {
 	position: absolute;
 	top: 1%;
 	left: 3.9rem;
+}
+.room-info {
+	color: grey;
 }
