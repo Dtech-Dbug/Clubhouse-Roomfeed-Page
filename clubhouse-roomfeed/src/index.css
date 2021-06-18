@@ -20,7 +20,8 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	font-size: 1.5rem;
-	margin: 0 0.8rem;
+	padding: 0.2rem 0.8rem;
+	margin: 0 0.4rem;
 }
 nav .flex-child-1 {
 	width: 30%;
