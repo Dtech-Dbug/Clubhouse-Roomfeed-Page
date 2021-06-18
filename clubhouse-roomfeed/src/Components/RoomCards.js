@@ -9,7 +9,11 @@ const RoomCards = () => {
 		<div className="room-cards">
 			<div className="room-card-header">
 				<h3>
-					Test <i style={{ color: "crimson" }} className="fa fa-home"></i>
+					Test{" "}
+					<i
+						style={{ color: "rgba(39, 174, 97, 255)" }}
+						className="fa fa-home"
+					></i>
 				</h3>{" "}
 				<h4>Test Test Test</h4>
 			</div>
