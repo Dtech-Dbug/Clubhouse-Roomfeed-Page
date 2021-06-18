@@ -133,10 +133,12 @@ footer button {
 }
 .comment {
 	height: 1rem;
-	position: absolute;
-	top: 1%;
-	left: 3.9rem;
+	margin-left: 0.6rem;
+	margin-top: -0.6rem;
 }
 .room-info {
 	color: grey;
 }
+/*position: absolute;
+	top: 1%;
+	left: 2.5rem;*/
