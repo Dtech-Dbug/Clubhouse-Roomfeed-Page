@@ -27,7 +27,6 @@ code {
 }
 
 nav {
-	background-color: rgba(39, 174, 97, 255);
 	display: flex;
 	justify-content: space-around;
 	font-size: 1.5rem;
@@ -56,7 +55,6 @@ nav .flex-child-2 > i {
 }
 
 .footer-wrapper {
-	opacity: 90%;
 	padding: 0.2rem 0.8rem;
 	margin: 0 0.4rem;
 	position: fixed;
@@ -69,10 +67,9 @@ footer {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	opacity: 1;
 }
 footer button {
-	background: rgba(39, 174, 97, 255);
+	background: rgb(39, 174, 97);
 	border-radius: 1rem;
 	height: 2rem;
 	color: white;
@@ -124,7 +121,7 @@ footer button {
 .user-images .user-image-2 {
 	position: absolute;
 	top: 30%;
-	left: 35%;
+	left: 2rem;
 }
 .room-users {
 	width: 60%;
@@ -153,3 +150,6 @@ footer button {
 /*position: absolute;
 	top: 1%;
 	left: 2.5rem;*/
+.room-feed-container {
+	padding-bottom: 4rem;
+}
