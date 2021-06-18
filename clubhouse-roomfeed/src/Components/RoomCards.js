@@ -1,7 +1,5 @@
 import React from "react";
-import User from "../Image/user.jpg";
 import { MessageOutlined } from "@ant-design/icons";
-import Comments from "../Image/comments.svg";
 import CommentsRegular from "../Image/commentsRegular.svg";
 
 const RoomCards = ({
