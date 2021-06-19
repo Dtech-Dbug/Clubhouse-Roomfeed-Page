@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Nav from "./Components/Nav";
 import StickyFooter from "./Components/StickyFooter";
 import RoomFeed from "./Components/RoomFeed";
-import { Switch } from "antd";
+import Toggle from "./Components/Toggle";
 
 function App() {
 	const light = "#f2f0e4";
@@ -19,11 +19,11 @@ function App() {
 	return (
 		<div className="App" style={{ background: theme, height: "150vh" }}>
 			<Nav theme={theme} />
-			<Switch
-				checked={theme === dark}
-				onChange={changeTheme}
-				checkedChildren="Dark"
-				unCheckedChildren="Light"
+			<Toggle
+				changeTheme={changeTheme}
+				theme={theme}
+				dark={dark}
+				light={light}
 			/>
 			<StickyFooter />
 			<RoomFeed theme={theme} />
