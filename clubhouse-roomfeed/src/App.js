@@ -26,7 +26,7 @@ function App() {
 				light={light}
 				color={theme === "#f2f0e4" ? "black" : "white"}
 			/>
-			<StickyFooter />
+			<StickyFooter theme={theme} dark={dark} light={light} />
 			<RoomFeed theme={theme} />
 		</div>
 	);
