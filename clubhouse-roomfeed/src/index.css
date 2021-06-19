@@ -75,7 +75,6 @@ footer button {
 	color: white;
 	display: flex;
 }
-
 /* room card*/
 .room-cards {
 	background: white;
@@ -84,7 +83,7 @@ footer button {
 	margin: 0 0.4rem;
 	border-radius: 0.75rem;
 	margin-top: 0.8rem;
-	box-shadow: 2px 3px 3px grey;
+	box-shadow: 0px 0px 6px grey;
 }
 .room-card-header {
 	display: flex;
