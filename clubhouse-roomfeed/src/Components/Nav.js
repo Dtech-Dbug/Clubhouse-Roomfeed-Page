@@ -2,9 +2,9 @@ import React from "react";
 import { Avatar } from "antd";
 import User from "../Image/user.jpg";
 
-const Nav = () => {
+const Nav = ({ theme }) => {
 	return (
-		<nav>
+		<nav style={{ color: theme === "#f2f0e4" ? "black" : "white" }}>
 			<div className="flex-child-1">
 				<i class="fa fa-search"></i>
 			</div>
