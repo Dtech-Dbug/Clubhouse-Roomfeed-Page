@@ -20,6 +20,7 @@ const RoomFeed = ({ theme }) => {
 				user2="Matty Healy"
 				user3="Dee"
 				theme={theme}
+				color={theme === "#f2f0e4" ? "black" : "white"}
 			/>
 			<RoomCards
 				heading="Memes"
@@ -30,6 +31,7 @@ const RoomFeed = ({ theme }) => {
 				user2="Elon Musk"
 				user3="TeamTanay Meme"
 				theme={theme}
+				color={theme === "#f2f0e4" ? "black" : "white"}
 			/>
 			<RoomCards
 				heading="Tech ,Life , jokes"
@@ -40,6 +42,7 @@ const RoomFeed = ({ theme }) => {
 				user2="NeogCamp"
 				user3="Dee"
 				theme={theme}
+				color={theme === "#f2f0e4" ? "black" : "white"}
 			/>
 			<RoomCards
 				heading="Wordplays"
@@ -50,6 +53,7 @@ const RoomFeed = ({ theme }) => {
 				user2="Dtech-Dbug"
 				user3="Dee"
 				theme={theme}
+				color={theme === "#f2f0e4" ? "black" : "white"}
 			/>
 		</div>
 	);
