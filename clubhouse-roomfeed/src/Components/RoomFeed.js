@@ -12,46 +12,48 @@ const RoomFeed = ({ theme }) => {
 	return (
 		<div className="room-feed-container">
 			<RoomCards
-				heading="Music"
-				subHeading="From Classical to Pop, Rock to hip-hop"
+				heading="Web & Whiteclaw "
+				subHeading="Delicios 😋 🍺"
 				userAvatar1={userAvatar3}
 				userAvatar2={userAvatar5}
-				user1="Eminem"
-				user2="Matty Healy"
-				user3="Dee"
+				user1="Whiteclaw 🍻"
+				user2="Jack Forge"
+				user3="VueJS"
 				theme={theme}
 				color={theme === "#f2f0e4" ? "black" : "white"}
 			/>
 			<RoomCards
-				heading="Memes"
-				subHeading="Who let the jokes out? 🤣"
+				heading="CSS Sorcery"
+				subHeading="Group made using CSS only ✨"
 				userAvatar1={userAvatar2}
 				userAvatar2={userAvatar4}
-				user1="Jagdish"
-				user2="Elon Musk"
-				user3="TeamTanay Meme"
+				user1="Pratham"
+				user2="Kass 🦈"
+				user3="Sabrina"
 				theme={theme}
 				color={theme === "#f2f0e4" ? "black" : "white"}
 			/>
 			<RoomCards
-				heading="Tech ,Life , jokes"
-				subHeading="No React Challenge 🤣"
+				heading="Web Bosses"
+				subHeading="Better at web than Spiderman 🕸"
 				userAvatar1={userAvatar1}
 				userAvatar2={userAvatar4}
-				user1="Tanay"
-				user2="NeogCamp"
-				user3="Dee"
+				user1="AshishxCode"
+				user2="Insha"
+				user3="CSFinch 🚀"
+				user4="Segun"
 				theme={theme}
 				color={theme === "#f2f0e4" ? "black" : "white"}
 			/>
 			<RoomCards
-				heading="Wordplays"
-				subHeading="No Pun No Fun. Know Pun?Know Fun!"
+				heading="Music"
+				subHeading="Brainwashed from Rock n Rap 🤘"
 				userAvatar1={userAvatar2}
 				userAvatar2={userAvatar5}
-				user1="Dwaipayan"
-				user2="Dtech-Dbug"
-				user3="Dee"
+				user1="Eminem"
+				user2="Jess"
+				user3="Charlie 🐩"
+				user4="Dee"
 				theme={theme}
 				color={theme === "#f2f0e4" ? "black" : "white"}
 			/>
