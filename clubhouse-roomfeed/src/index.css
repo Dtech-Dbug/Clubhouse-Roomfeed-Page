@@ -70,6 +70,9 @@ footer {
 	justify-content: space-around;
 	align-items: center;
 }
+footer i {
+	z-index: 99;
+}
 footer button {
 	background: rgb(39, 174, 97);
 	border-radius: 1rem;
