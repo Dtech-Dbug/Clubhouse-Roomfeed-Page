@@ -17,7 +17,7 @@ function App() {
 		setTheme(value ? dark : light);
 	}
 	return (
-		<div className="App" style={{ background: theme, height: "140vh" }}>
+		<div className="App" style={{ background: theme, height: "145vh" }}>
 			<Nav theme={theme} />
 			<Switch
 				checked={theme === dark}
