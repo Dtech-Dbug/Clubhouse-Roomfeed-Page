@@ -48,31 +48,61 @@ const RoomCards = ({
 				<div className="room-users">
 					<div className="users">
 						<h4 style={{ color: color }}>{user1}</h4>
-						<img
-							className="comment"
-							src={CommentsRegular}
-							style={{ backgroundClip: "contentBox" }}
-							alt=""
-						/>
+						{theme === "#f2f0e4" ? (
+							<img
+								className="comment"
+								src={CommentsRegular}
+								style={{ backgroundClip: "contentBox" }}
+								alt=""
+							/>
+						) : (
+							<MessageOutlined
+								style={{
+									color: "grey",
+									marginLeft: "0.6rem",
+									marginTop: "-0.6rem",
+								}}
+							/>
+						)}
 					</div>
 
 					<div className="users">
 						<h4 style={{ color: color }}>{user2}</h4>
-						<img
-							className="comment"
-							src={CommentsRegular}
-							style={{ backgroundClip: "contentBox" }}
-							alt=""
-						/>
+						{theme === "#f2f0e4" ? (
+							<img
+								className="comment"
+								src={CommentsRegular}
+								style={{ backgroundClip: "contentBox" }}
+								alt=""
+							/>
+						) : (
+							<MessageOutlined
+								style={{
+									color: "grey",
+									marginLeft: "0.6rem",
+									marginTop: "-0.6rem",
+								}}
+							/>
+						)}
 					</div>
 					<div className="users">
 						<h4 style={{ color: color }}>{user3}</h4>
-						<img
-							className="comment"
-							src={CommentsRegular}
-							style={{ backgroundClip: "contentBox" }}
-							alt=""
-						/>
+						{theme === "#f2f0e4" ? (
+							<img
+								className="comment"
+								src={CommentsRegular}
+								style={{ backgroundClip: "contentBox" }}
+								alt=""
+							/>
+						) : (
+							<MessageOutlined
+								style={{
+									color: "grey",
+									marginLeft: "0.6rem",
+									marginTop: "-0.6rem",
+								}}
+							/>
+						)}
 					</div>
 
 					<div className="room-info">
