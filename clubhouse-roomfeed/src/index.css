@@ -63,6 +63,7 @@ nav .flex-child-2 > i {
 	width: 60%;
 	left: 20%;
 	padding: 0.8rem;
+	z-index: 99;
 }
 footer {
 	display: flex;
@@ -159,6 +160,8 @@ footer button {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
+	background-color: white;
+	z-index: 99;
 }
 .Toggle-Container {
 	border-block: 1px solid grey;
