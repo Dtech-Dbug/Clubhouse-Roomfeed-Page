@@ -86,6 +86,7 @@ footer button {
 	border-radius: 0.75rem;
 	margin-top: 0.8rem;
 	box-shadow: 0px 0px 6px grey;
+	font-size: 0.7rem;
 }
 .room-card-header {
 	display: flex;
