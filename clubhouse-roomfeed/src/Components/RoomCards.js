@@ -10,6 +10,7 @@ const RoomCards = ({
 	user1,
 	user2,
 	user3,
+	user4,
 	theme,
 	color,
 }) => {
@@ -87,6 +88,25 @@ const RoomCards = ({
 					</div>
 					<div className="users">
 						<h4 style={{ color: color }}>{user3}</h4>
+						{theme === "#f2f0e4" ? (
+							<img
+								className="comment"
+								src={CommentsRegular}
+								style={{ backgroundClip: "contentBox" }}
+								alt=""
+							/>
+						) : (
+							<MessageOutlined
+								style={{
+									color: "grey",
+									marginLeft: "0.6rem",
+									marginTop: "-0.6rem",
+								}}
+							/>
+						)}
+					</div>
+					<div className="users">
+						<h4 style={{ color: color }}>{user4}</h4>
 						{theme === "#f2f0e4" ? (
 							<img
 								className="comment"
