@@ -11,21 +11,24 @@ const RoomCards = ({
 	user2,
 	user3,
 	theme,
+	color,
 }) => {
 	return (
 		<div
 			className="room-cards"
-			style={{ background: theme === "#f2f0e4" ? "#f2f0e4" : "#151515" }}
+			style={{
+				background: theme === "#f2f0e4" ? "#f2f0e4" : "#151515",
+			}}
 		>
 			<div className="room-card-header">
-				<h3>
+				<h3 style={{ color: color }}>
 					{heading}
 					<i
 						style={{ color: "rgba(39, 174, 97, 255)" }}
 						className="fa fa-home"
 					></i>
 				</h3>{" "}
-				<h4>{subHeading}</h4>
+				<h4 style={{ color: color }}>{subHeading}</h4>
 			</div>
 
 			<div className="room-card-content">
@@ -44,7 +47,7 @@ const RoomCards = ({
 
 				<div className="room-users">
 					<div className="users">
-						<h4>{user1}</h4>
+						<h4 style={{ color: color }}>{user1}</h4>
 						<img
 							className="comment"
 							src={CommentsRegular}
@@ -54,7 +57,7 @@ const RoomCards = ({
 					</div>
 
 					<div className="users">
-						<h4>{user2}</h4>
+						<h4 style={{ color: color }}>{user2}</h4>
 						<img
 							className="comment"
 							src={CommentsRegular}
@@ -63,7 +66,7 @@ const RoomCards = ({
 						/>
 					</div>
 					<div className="users">
-						<h4>{user3}</h4>
+						<h4 style={{ color: color }}>{user3}</h4>
 						<img
 							className="comment"
 							src={CommentsRegular}
