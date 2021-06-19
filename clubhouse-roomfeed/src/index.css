@@ -165,7 +165,10 @@ footer button {
 	padding-inline: 4rem;
 	margin: 1rem 0;
 	margin-bottom: 2rem;
+	position: relative;
+	box-shadow: 0px 3px 6px black;
 }
 .Toggle-Container h3 {
 	font-family: var(--text-sub-heading);
+	font-weight: 900;
 }
