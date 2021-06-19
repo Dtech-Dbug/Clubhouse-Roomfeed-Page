@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch } from "antd";
 
-const Toggle = ({ theme, dark, light, changeTheme }) => {
+const Toggle = ({ theme, dark, light, changeTheme, color }) => {
 	return (
 		<div className="Toggle-Container">
 			<Switch
@@ -12,7 +12,11 @@ const Toggle = ({ theme, dark, light, changeTheme }) => {
 				unCheckedChildren="🔦"
 			/>
 
-			<h3>Lights out. 🏮🕯</h3>
+			{theme === dark ? (
+				<h3 style={{ color: color }}>👈 Lights In 💡 </h3>
+			) : (
+				<h3 style={{ color: color }}>👈 Lights Out 🏮 </h3>
+			)}
 		</div>
 	);
 };

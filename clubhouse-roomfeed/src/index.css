@@ -160,6 +160,12 @@ footer button {
 	border-block: 1px solid grey;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
+	padding-inline: 4rem;
+	margin: 1rem 0;
+	margin-bottom: 2rem;
+}
+.Toggle-Container h3 {
+	font-family: var(--text-sub-heading);
 }
