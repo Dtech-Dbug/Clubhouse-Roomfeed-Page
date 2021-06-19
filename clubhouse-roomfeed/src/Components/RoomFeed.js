@@ -24,7 +24,7 @@ const RoomFeed = ({ theme }) => {
 			/>
 			<RoomCards
 				heading="CSS Sorcery"
-				subHeading="Group made using CSS only ✨"
+				subHeading="Room made using CSS only 🧙‍♀️🧙‍♂️✨"
 				userAvatar1={userAvatar2}
 				userAvatar2={userAvatar4}
 				user1="Pratham"
