@@ -105,25 +105,27 @@ const RoomCards = ({
 							/>
 						)}
 					</div>
-					<div className="users">
-						<h4 style={{ color: color }}>{user4}</h4>
-						{theme === "#f2f0e4" ? (
-							<img
-								className="comment"
-								src={CommentsRegular}
-								style={{ backgroundClip: "contentBox" }}
-								alt=""
-							/>
-						) : (
-							<MessageOutlined
-								style={{
-									color: "grey",
-									marginLeft: "0.6rem",
-									marginTop: "-0.6rem",
-								}}
-							/>
-						)}
-					</div>
+					{user4 && (
+						<div className="users">
+							<h4 style={{ color: color }}>{user4}</h4>
+							{theme === "#f2f0e4" ? (
+								<img
+									className="comment"
+									src={CommentsRegular}
+									style={{ backgroundClip: "contentBox" }}
+									alt=""
+								/>
+							) : (
+								<MessageOutlined
+									style={{
+										color: "grey",
+										marginLeft: "0.6rem",
+										marginTop: "-0.6rem",
+									}}
+								/>
+							)}
+						</div>
+					)}
 
 					<div className="room-info">
 						567 <i class="fa fa-user"></i> / 17 <MessageOutlined />
