@@ -10,6 +10,8 @@ const Toggle = ({ theme, dark, light, changeTheme }) => {
 				checkedChildren="Dark"
 				unCheckedChildren="Light"
 			/>
+
+			<h3>Lights out. 🏮🕯</h3>
 		</div>
 	);
 };
