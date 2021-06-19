@@ -154,3 +154,12 @@ footer button {
 .room-feed-container {
 	padding-bottom: 4rem;
 }
+
+/*Toggle Componene*/
+.Toggle-Container {
+	border-block: 1px solid grey;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
