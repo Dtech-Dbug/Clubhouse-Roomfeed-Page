@@ -52,6 +52,8 @@ nav .flex-child-2 > i {
 	position: relative;
 	height: 100vh;
 	background-color: #f2f0e4;
+	overflow-x: scroll;
+	scroll-behavior: smooth;
 }
 
 .footer-wrapper {

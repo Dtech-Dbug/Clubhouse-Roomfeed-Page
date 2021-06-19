@@ -17,7 +17,7 @@ function App() {
 		setTheme(value ? dark : light);
 	}
 	return (
-		<div className="App" style={{ background: theme, height: "150vh" }}>
+		<div className="App" style={{ background: theme, height: "100vh" }}>
 			<Nav theme={theme} />
 			<Toggle
 				changeTheme={changeTheme}
