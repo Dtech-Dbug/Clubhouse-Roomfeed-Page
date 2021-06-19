@@ -10,9 +10,13 @@ const RoomCards = ({
 	user1,
 	user2,
 	user3,
+	theme,
 }) => {
 	return (
-		<div className="room-cards">
+		<div
+			className="room-cards"
+			style={{ background: theme === "#f2f0e4" ? "#f2f0e4" : "#151515" }}
+		>
 			<div className="room-card-header">
 				<h3>
 					{heading}
