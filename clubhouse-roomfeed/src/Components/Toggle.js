@@ -3,7 +3,12 @@ import { Switch } from "antd";
 
 const Toggle = ({ theme, dark, light, changeTheme, color }) => {
 	return (
-		<div className="Toggle-Container">
+		<div
+			className="Toggle-Container"
+			style={{
+				boxShadow: theme === light ? "0px 3px 6px black" : "0px 0px 2px white",
+			}}
+		>
 			<Switch
 				style={{ background: theme === dark ? "grey" : "yellow" }}
 				checked={theme === dark}
