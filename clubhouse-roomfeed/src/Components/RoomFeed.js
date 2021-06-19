@@ -8,7 +8,7 @@ import userAvatar3 from "../Image/cuteUser3.png";
 import userAvatar4 from "../Image/cuteUser4.jpg";
 import userAvatar5 from "../Image/cuteUser5.jpg";
 
-const RoomFeed = () => {
+const RoomFeed = ({ theme }) => {
 	return (
 		<div className="room-feed-container">
 			<RoomCards
@@ -19,6 +19,7 @@ const RoomFeed = () => {
 				user1="Eminem"
 				user2="Matty Healy"
 				user3="Dee"
+				theme={theme}
 			/>
 			<RoomCards
 				heading="Memes"
@@ -28,6 +29,7 @@ const RoomFeed = () => {
 				user1="Jagdish"
 				user2="Elon Musk"
 				user3="TeamTanay Meme"
+				theme={theme}
 			/>
 			<RoomCards
 				heading="Tech ,Life , jokes"
@@ -37,6 +39,7 @@ const RoomFeed = () => {
 				user1="Tanay"
 				user2="NeogCamp"
 				user3="Dee"
+				theme={theme}
 			/>
 			<RoomCards
 				heading="Wordplays"
@@ -46,6 +49,7 @@ const RoomFeed = () => {
 				user1="Dwaipayan"
 				user2="Dtech-Dbug"
 				user3="Dee"
+				theme={theme}
 			/>
 		</div>
 	);
