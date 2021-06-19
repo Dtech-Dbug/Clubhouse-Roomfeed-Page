@@ -9,6 +9,7 @@ const Toggle = ({ theme, dark, light, changeTheme, color }) => {
 				style={{
 					boxShadow:
 						theme === light ? "0px 3px 6px black" : "0px 0px 2px white",
+					background: theme === dark ? "white" : "black",
 				}}
 			>
 				<Switch
@@ -22,9 +23,13 @@ const Toggle = ({ theme, dark, light, changeTheme, color }) => {
 				/>
 
 				{theme === dark ? (
-					<h3 style={{ color: color }}>👈 Lights In 💡 </h3>
+					<h3 style={{ color: theme === dark ? "black" : "white" }}>
+						👈 Lights In 💡{" "}
+					</h3>
 				) : (
-					<h3 style={{ color: color }}>👈 Lights Out 🏮 </h3>
+					<h3 style={{ color: theme === dark ? "black" : "white" }}>
+						👈 Lights Out 🏮{" "}
+					</h3>
 				)}
 			</div>
 		</div>
